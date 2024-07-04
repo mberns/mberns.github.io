@@ -13,7 +13,7 @@ const { createApp } = Vue
         cantidad:0,
         imagen:"",
         //url:'http://localhost:5000/libros/'+id,
-        url:'http://martina.pythonanywhere.com/libros/'+id,
+        url:'https://martina.pythonanywhere.com/libros/'+id,
        }  
     },
     methods: {
