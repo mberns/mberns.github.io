@@ -1,0 +1,51 @@
+* {
+    font-family: "Lora", serif;
+    background-color: rgb(255, 204, 153); /* rgb(255, 160, 122);*/
+    text-align: center;
+}
+
+h1 {
+    padding: 1em;
+}
+
+#Editar {
+    background-color: bisque;
+    margin: 0.3em;
+}
+
+#Guardar {
+    background-color: rgb(240, 128, 128);
+    margin: 0.3em;
+}
+
+#Eliminar {
+    background-color: rgb(240, 128, 128);
+    margin: 0.3em;
+}
+
+.rounded-table {
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+#Nuevo {
+    background-color: lightgoldenrodyellow;
+    margin: 0.3em;
+}
+
+#nav-header {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(240, 128, 128);
+}
+
+.fondo {
+    background-color: rgb(240, 128, 128);
+}
+
+header {
+    background-color: rgb(240, 128, 128);
+    padding: 1em;
+    margin: 0;
+}
