@@ -1,6 +1,6 @@
 document.getElementById("header").innerHTML=` <nav id="nav-header" class="fondo navbar navbar-expand-sm navbar-expand-lg navbar-light ">
 <div class="container fondo">
-  <a class="navbar-brand fondo" href="libros.html">Inicio</a>
+  <a class="navbar-brand fondo" href="index.html">Inicio</a>
   <button class="navbar-toggler d-lg-none fondo" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

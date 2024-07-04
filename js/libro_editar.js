@@ -53,7 +53,7 @@ const { createApp } = Vue
             fetch(this.url, options)
                 .then(function () {
                     alert("Registro modificado")
-                    window.location.href = "./libros.html"; // navega a libros.html          
+                    window.location.href = "./index.html"; // navega a libros.html          
                 })
                 .catch(err => {
                     console.error(err);

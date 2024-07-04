@@ -61,7 +61,7 @@ const { createApp } = Vue
             fetch(this.url, options)
                 .then(function () {
                     alert("Registro grabado")
-                    window.location.href = "./libros.html";  // recarga libros.html
+                    window.location.href = "./index.html";  // recarga libros.html
                 })
                 .catch(err => {
                     console.error(err);
