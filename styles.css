@@ -47,5 +47,9 @@ h1 {
 header {
     background-color: rgb(240, 128, 128);
     padding: 1em;
-    margin: 0;
+    margin: 0em;
+}
+
+main {
+    padding: 0.5em;
 }
