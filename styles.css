@@ -18,6 +18,11 @@ h1 {
     margin: 0.3em;
 }
 
+#Enviar {
+    background-color: rgb(240, 128, 128);
+    margin: 0.3em;
+}
+
 #Eliminar {
     background-color: rgb(240, 128, 128);
     margin: 0.3em;
@@ -53,3 +58,26 @@ header {
 main {
     padding: 0.5em;
 }
+
+#codo-a-codo {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.form-container {
+    background-color: aliceblue;
+    margin: 10px auto;
+    width: 400px;
+    padding: 20px;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  #form {
+    background-color: aliceblue;
+    margin:10px auto ;
+    width: 400px;
+    padding: 20px;
+  }
