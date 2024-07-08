@@ -16,7 +16,7 @@ document.getElementById("header").innerHTML=` <nav id="nav-header" class="fondo 
           <li class="nav-item fondo">
               <a class="nav-link fondo" href="login.html">Login</a>
           </li>
-          <li class="nav-item dropdown fondo">
+          <li class="nav-item dropdown fondo" id="crud">
               <a class="nav-link dropdown-toggle fondo" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Adminitración</a>
               <div class="dropdown-menu fondo" aria-labelledby="dropdownId">
                   <a class="dropdown-item fondo" href="libros.html">CRUD Libros</a>
@@ -31,6 +31,16 @@ document.getElementById("header").innerHTML=` <nav id="nav-header" class="fondo 
 </div>
 </nav>
 `
+
+
+if (sessionStorage.getItem("adm")!="1"){
+    document.querySelector("#crud").setAttribute('style', 'display:none')
+}else{
+    document.querySelector("#crud").setAttribute('style', 'display:on')
+}
+
+//COSAS QUE SAQUE PERO DEJO ACA POR LAS DUDAS
+
 //bg-light
 /*
 <a class="navbar-brand fondo" href="index.html">Biblioteca</a>
