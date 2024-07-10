@@ -96,7 +96,12 @@ createApp({
                 alert('Login exitoso');
                 window.location.href = 'index.html';  // Redirige a la página principal
             } else {
-                alert('Usuario o contraseña incorrectos');
+                alert('ingreso un usuario NO ADMIN');
+                console.log("ingreso un usuario NO ADMIN");
+                sessionStorage.setItem("adm", "0");
+                localStorage.setItem("isLoggedIn", "true");
+                //alert('Login exitoso');
+                window.location.href = 'index_usuarios.html';  // Redirige a la página principal
             }
             /*
             var i = 0;

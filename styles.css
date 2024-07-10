@@ -28,6 +28,11 @@ h1 {
     margin: 0.3em;
 }
 
+#Reservar {
+    background-color: rgb(240, 128, 128);
+    margin: 0.3em;
+}
+
 .rounded-table {
     border-radius: 7px;
     overflow: hidden;
@@ -81,12 +86,3 @@ main {
     width: 400px;
     padding: 20px;
   }
-/*revisar lo de abajo*/
-  nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}

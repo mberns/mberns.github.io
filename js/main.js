@@ -76,6 +76,7 @@ function userLogin() {
     const loginItem = document.getElementById("login");
     const logoutItem = document.getElementById("logout");
 
+    //para que no me muestre mas la pestaña login, pero me muestre la logout
     if (loginItem && logoutItem) {
         loginItem.style.display = "none";
         logoutItem.style.display = "block";
@@ -92,6 +93,8 @@ function logout() {
     const logoutItem = document.getElementById("logout");
     const crudItem = document.getElementById("crud");
 
+    //cuando cierro sesion me muestra solamente la pestaña login, no me muestra ni las 
+    //opciones de administradores, ni la pestaña logout
     if (loginItem && logoutItem && crudItem) {
         loginItem.style.display = "block";
         logoutItem.style.display = "none";
@@ -117,8 +120,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 alert('Login exitoso');
                 window.location.href = 'index.html';
             } else {
-                alert('Usuario o contraseña incorrectos');
+                //alert('Usuario o contraseña incorrectos');
+                console.log("ingreso otro usuario, que no es admin")
+                alert("ingreso un usuario no administrador");
+                sessionStorage.setItem("adm", "0");
+                localStorage.setItem("isLoggedIn", "true");
+                alert('Login exitoso');
+                window.location.href = 'index_usuarios.html';
             }
         });
     }
 });
+
+//ME FALTA:
+//- poner el home "index_usuarios" cuando los usuarios ya ingresaron a su cuenta
+//- hacer la BD de usuarios
+//- ver el tema del registro y los permisos de los usuarios q se registran
+//- poner en la funcion de login la comprobacion si existe ese usuario registrado en la BD
