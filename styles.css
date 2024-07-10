@@ -81,3 +81,12 @@ main {
     width: 400px;
     padding: 20px;
   }
+/*revisar lo de abajo*/
+  nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
